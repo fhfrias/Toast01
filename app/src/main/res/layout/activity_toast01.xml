@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffa1"
+    android:orientation="vertical"
+    tools:context=".Toast01">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOAST SIMPLE POSICIONADO"
+        android:layout_margin="4dp"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#002aff"
+        />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOSTRAR TOAST"
+        android:textSize="12dp"
+        android:layout_margin="4dp"
+        />
+
+</LinearLayout>
